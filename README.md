@@ -9,6 +9,7 @@ Creates a new template variable, pages_shuffled, which contains a randomized arr
 
 * Install [Phile](https://github.com/PhileCMS/Phile)
 * [Download this repo](https://github.com/PhileCMS/philePageShuffle/archive/master.zip)
+* Place it in the plugins folder
 * Rename it to `philePageShuffle`
 
 *git*
