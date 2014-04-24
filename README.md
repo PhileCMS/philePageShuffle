@@ -3,26 +3,22 @@ philePageShuffle
 
 Creates a new template variable, pages_shuffled, which contains a randomized array of pages.
 
-### Installation
+### 1.1 Installation (composer)
+```
+php composer.phar require phile/pageshuffle:*
+```
 
-*Download*
+### 1.2 Installation (Download)
 
-* Install [Phile](https://github.com/PhileCMS/Phile)
-* [Download this repo](https://github.com/PhileCMS/philePageShuffle/archive/master.zip)
-* Place it in the plugins folder
-* Rename it to `philePageShuffle`
-
-*git*
-
-In the root of your Phile install:
-
-`git clone https://github.com/PhileCMS/philePageShuffle plugins/philePageShuffle`
+* Install the latest version of [Phile](https://github.com/PhileCMS/Phile)
+* Clone this repo into `plugins/phile/pageshuffle`
+* add `$config['plugins']['phile\\pageshuffle'] = array('active' => true);` to your `config.php`
 
 After you have installed the plugin. You need to add the following line to your `config.php` file:
 
 ```php
 $config['plugins'] = array(
-  'philePageShuffle' => array('active' => true)
+  'phile\\pageshuffle' => array('active' => true)
 );
 ```
 

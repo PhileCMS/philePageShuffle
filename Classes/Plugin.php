@@ -1,10 +1,13 @@
 <?php
+/**
+ * Plugin class
+ */
+namespace Phile\Plugin\Phile\Pageshuffle;
 
 /**
  * Shuffle all the pages
  */
-
-class PhilePageShuffle extends \Phile\Plugin\AbstractPlugin implements \Phile\EventObserverInterface {
+class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface {
 
 	public function __construct() {
 		\Phile\Event::registerEvent('template_engine_registered', $this);
