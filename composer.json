@@ -1,9 +1,9 @@
 {
-	"name": "phile/pageschuffle",
+	"name": "phile/page-shuffle",
 	"type": "phile-plugin",
     "version": "1.0.0",
     "license": "MIT",
-    "description": "A plugin take an image name and generate a wrapped image tag.",
+    "description": "Creates a new template variable, pages_shuffled, which contains a randomized array of pages.",
     "homepage": "http://philecms.com",
     "keywords": ["cms","phile","content"],
     "authors": [

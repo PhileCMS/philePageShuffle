@@ -2,7 +2,7 @@
 /**
  * Plugin class
  */
-namespace Phile\Plugin\Phile\Pageshuffle;
+namespace Phile\Plugin\Phile\PageShuffle;
 
 /**
  * Shuffle all the pages
