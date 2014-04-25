@@ -12,14 +12,13 @@ php composer.phar require phile/pageshuffle:*
 
 * Install the latest version of [Phile](https://github.com/PhileCMS/Phile)
 * Clone this repo into `plugins/phile/pageShuffle`
-* add `$config['plugins']['phile\\pageShuffle'] = array('active' => true);` to your `config.php`
+
+### 2. Activation
 
 After you have installed the plugin. You need to add the following line to your `config.php` file:
 
-```php
-$config['plugins'] = array(
-  'phile\\pageShuffle' => array('active' => true)
-);
+```
+$config['plugins']['phile\\pageShuffle'] = array('active' => true);
 ```
 
 ### Usage
